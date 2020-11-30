@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #eee;
+  font-family: sans-serif;
+
+}
+
+
+.row{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  border-bottom: 4px solid orangered;
+
+}
+
+.NewConfirmed,
+.TotalConfirmed,
+.NewDeaths,
+.TotalDeaths,
+.TotalRecovered,
+.inc {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+.NewConfirmed {
+  color: orange;
+}
+
+.TotalConfirmed {
+  color: blueviolet;
+}
+
+.NewDeaths{
+  color: red;
+}
+.TotalDeaths{
+  color: red;
+}
+
+.TotalRecovered {
+  color: green;
+}
+
+table{
+  border-collapse: separate;
+  width: 80%;
+  margin: 0 auto;
+  border-spacing: 0 12px;
+}
+
+table thead tr{
+  background: #fff;
+
+}
+table thead tr th{
+  padding: 18px 12px;
+  text-align: left;
+
+}
+table tbody tr{
+  background: #fff;
+}
+
+table tbody tr td {
+  padding: 18px 12px;
+  text-align: left;
+}
+
+.indiastats{
+  font-size: larger;
+  text-decoration: none;
+  border: 1px solid black;
+  display: inline-block;
+  color: black;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px lightgrey;
+}
+
+a :hover{
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.801);
+}
+
+.IndiaData{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+.table-row{
+  position: sticky;
+  background: #fff;
+  border-bottom: 5px solid black;
+  top: 0;
+}
+
+.ind-table tr:first-child td{
+  background:lightgray;
+  font-weight: bolder;
+}
+.top-btn{
+  position: sticky;
+  top: 90%;
+  float: right;
+  margin-right: 30px;
+  height: 20px;
+  width: 50px;
+  /* background-color: lightcyan; */
+  border: 1px solid black;
+}
+.child{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.search-bar{
+  /* height: 25px;
+    width: 150px;
+    margin-top: 10px;
+    color: black;
+    background: beige;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+} */
+border-radius: 0px;
+    z-index: 0;
+    box-shadow: none;
+    height: 42px;
+    font-size: 20px;
+    border: 0px;
+    padding: 0px 5px 0px 5px;
+    color: #3d3935;
+    width: 79%;
+    margin-top: 10px;
+}
+
+
+.head, #nhead{
+  margin-left: 100px;
+}
+
+/* .top-btn :hover{
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.801);
+} */
+
+tbody>tr>:nth-child(5){
+  color: black;
+  /* background-color: red; */
+  width: 200px;
+ }
+ tbody>tr>:nth-child(4){
+  color:black;
+  /* background-color: lightgreen; */
+  width: 200px;
+ }
